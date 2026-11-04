@@ -1,0 +1,13 @@
+﻿year,visitor_type,quarterly_sum_million_mop,published_annual_million_mop,difference_million_mop,source_url,location,period_basis
+2019,total,64078.0,64077,1.0,https://www.dsec.gov.mo/getAttachment/3df5a606-439d-4c9e-9c04-9d7a02425c31/E_TUR_FR_2019_Q4.aspx,PDF p1 Q1-Q4 total and p4 Q1-Q4 by visitor type,annual_control_only
+2019,overnight,49955.0,49956,-1.0,https://www.dsec.gov.mo/getAttachment/3df5a606-439d-4c9e-9c04-9d7a02425c31/E_TUR_FR_2019_Q4.aspx,PDF p1 Q1-Q4 total and p4 Q1-Q4 by visitor type,annual_control_only
+2019,same_day,14122.0,14122,0.0,https://www.dsec.gov.mo/getAttachment/3df5a606-439d-4c9e-9c04-9d7a02425c31/E_TUR_FR_2019_Q4.aspx,PDF p1 Q1-Q4 total and p4 Q1-Q4 by visitor type,annual_control_only
+2023,total,71245.0,71245,0.0,https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx,"sheet 12: B7,E7,H7",annual_control_only
+2023,overnight,60175.0,60176,-1.0,https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx,"sheet 12: B7,E7,H7",annual_control_only
+2023,same_day,11070.0,11069,1.0,https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx,"sheet 12: B7,E7,H7",annual_control_only
+2024,total,75357.0,75358,-1.0,https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx,"sheet 11: B7,E7,H7",annual_control_only
+2024,overnight,62311.0,62310,1.0,https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx,"sheet 11: B7,E7,H7",annual_control_only
+2024,same_day,13047.0,13047,0.0,https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx,"sheet 11: B7,E7,H7",annual_control_only
+2025,total,80122.0,80122,0.0,https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx,"sheet 10: C7,F7,I7",annual_control_only
+2025,overnight,63308.0,63308,0.0,https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx,"sheet 10: C7,F7,I7",annual_control_only
+2025,same_day,16814.0,16814,0.0,https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx,"sheet 10: C7,F7,I7",annual_control_only

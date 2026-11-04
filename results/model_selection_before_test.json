@@ -1,0 +1,5 @@
+{
+  "selected_model": "ridge_calendar_trend",
+  "selected_ridge_alpha": 100.0,
+  "selection_rule": "Lowest unweighted mean of four chronological 2024-quarter validation MSEs; no 2025 information."
+}

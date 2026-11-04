@@ -1,0 +1,13 @@
+The data cover 3,287 dates; all 17 source groups sum to the daily total. Nine visitor-type dates are flagged (one raw missing value and eight +/-1 differences). High values are retained.
+Total arrivals: 39,406,181 in 2019 and 40,069,360 in 2025; change 1.68%.
+Daily median: 104,695 to 103,252; P90: 138,130.0 to 148,850.2.
+Overnight share: 47.28% to 41.29%.
+Four-fold 2024 validation MSE selects Ridge calendar + trend; selected Ridge alpha=100.0.
+Selected model in the 2025 holdout: RMSE=25,818.77 arrivals/day, MAE=18,767.15 arrivals/day, R-squared=0.2143.
+Training P90 threshold=121,707.0; see results/test_error_diagnostics.csv for high-arrival and other-date errors.
+Descriptive statistics cover the observed historical dates; daily records are not treated as iid random samples.
+No t-tests, ordinary bootstrap or causal attribution were performed.
+2025 is a historical holdout. DSEC publication latency is unknown; real-time availability is not established.
+Calendar features only: lunar holidays, weather, events, policy and travel-supply constraints are not encoded.
+Adjacent dates may be related and contexts change; residual autocorrelation was not formally tested. R-squared is not a causal effect or a guarantee of future performance.
+Nine visitor-type anomaly dates are retained and flagged; daily source-group totals have been verified.

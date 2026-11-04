@@ -1,0 +1,184 @@
+Project review — 1 November 2026
+Macao Tourism Recovery: Visitor Composition, Daily Arrivals and Non-gaming Expenditure
+
+OVERALL ASSESSMENT
+The research content fits the course and has sufficient analytical depth for a
+six-person, four-week course project. Its strength is the connection between data
+quality, distributions, visitor composition, model validation and expenditure
+measurement. It does not need additional advanced algorithms to be substantive.
+This is a judgement about scope and evidence, not a grade or an estimate of each
+member's contribution.
+
+The calculations and reported findings passed independent numerical checks. Both
+English notebooks were also executed from the first cell, and both scripts were
+run from a fresh extraction of the share archive. The archive includes saved
+outputs so readers can review the evidence without installing software.
+
+The package is not yet a complete submission set. At the team's request, member
+names/IDs, group details, collaboration arrangements and the four-week schedule
+remain deferred. Separate meeting minutes and the introductory video are also
+outside this package. These are formal requirements, not defects in the analysis.
+
+REQUIREMENTS AND EVIDENCE
+This review uses the complete project requirements saved from the authenticated
+course page on 29 October 2026. A fresh access attempt on 1 November reached the
+university login page, so later changes to the requirements were not confirmed.
+Course: https://ummoodle.um.edu.mo/course/view.php?id=46674
+Proposal: https://ummoodle.um.edu.mo/mod/assign/view.php?id=1265507
+
+The saved instructions require a single PDF of no more than 15 A4 pages, including
+the cover and references. The proposal deadline is 5 November 2026 at 23:00; the
+project section's 5 December 2026 at 23:00 deadline is a different date. Every member
+must submit independently. The meeting-minutes PDF and roughly five-minute MP4
+introduction are separate submissions due on 5 November.
+
+Research requirements addressed in Project_Proposal.pdf:
+- Focused title and four research questions, with a clear Macao tourism context.
+- Learning aims, course methods, tools, workflow and expected deliverables.
+- Two accessible official dataset links and explicit observation units.
+- Success criteria based on reproducibility, valid comparisons and honest reporting.
+- Seventeen APA-style references, plus an acknowledgement of AI assistance.
+- A 10-page A4 PDF, within the 15-page limit including references.
+
+Deferred formal elements: full team cover information; roles, responsibilities,
+communication/working rules and named coordination functions; and a realistic
+schedule starting at proposal submission and finishing within four weeks. The
+research-only proposal should not be presented as satisfying those elements.
+
+RESEARCH QUESTIONS AND THEIR EVIDENCE
+RQ1. How did total arrivals, overnight/same-day composition and source composition
+change between 2019 and 2025?
+Daily and annual counts, source shares and signed source changes answer this.
+Arrivals increased from 39,406,181 to 40,069,360 (+1.68%), while the overnight share
+fell from 47.28% to 41.29% (about 5.99 percentage points). Mainland arrivals rose by
+1,093,945, more than the total net increase of 663,179 because other groups offset
+part of that rise. The 164.95% contribution to net change is not a visitor share or
+a causal effect. Source groups follow the official travel-document definition;
+overnight visitors are not equivalent to hotel guests or room nights.
+
+RQ2. How did the typical level, spread and upper quantiles of daily arrivals change,
+and did changes vary by month and weekday?
+The mean rose from 107,962 to 109,779 visits per day, but the median fell from 104,695
+to 103,252. IQR increased from 27,163 to 34,032 and P90 from 138,130 to 148,850.2.
+ECDFs, shared-bin histograms and month/weekday comparisons show why recovery of the
+annual total does not imply recovery of a typical day or an unchanged distribution.
+These are historical descriptions, not tests of statistical significance.
+
+RQ3. How did calendar models selected using 2024 validation perform in 2025, and how
+did trend and Ridge affect errors?
+The design starts with 2023 training data, uses four expanding training windows
+with the quarters of 2024 for validation, and refits on 2023-2024 before evaluating
+2025. Preprocessing is fitted inside each training fold. Model and alpha selection
+use the unweighted mean of the four validation MSEs. Validation RMSE is the square
+root of that mean, not the mean of four RMSEs.
+
+Ridge with alpha=100 wins validation (RMSE 24,820.82 visits/day). On the 2025 holdout,
+its RMSE is 25,818.77, MAE is 18,767.15 and R-squared is 0.2143. OLS with trend has a
+lower holdout RMSE of 23,916.19 and R-squared of 0.3258, despite much poorer average
+validation performance. Reporting that reversal is necessary; it does not justify
+switching the selected model after observing the test results. The large first-fold
+OLS-with-trend error is numerically reproducible, not a transcription error; its
+cause has not been established by a formal collinearity or dependence analysis.
+
+Using the training-period P90 of 121,707, 103 test dates exceed the threshold.
+Ridge RMSE is 36,510.33 on those dates versus 20,115.40 on the other 262 dates.
+Observed-minus-predicted bias on the high-arrival dates is +27,053.09 visits/day,
+showing substantial underestimation. The grouping uses observed test arrivals as a
+post hoc diagnostic; it is not a classifier that identifies future busy dates.
+
+RQ4. Did arrivals, nominal non-gaming expenditure and official spending per visit
+recover together under same-quarter and annual comparisons?
+Quarterly arrival sums are joined one-to-one with 16 published spending estimates.
+Compared with 2019, 2025 annual arrivals rose 1.68%, published nominal expenditure
+rose 25.04% and official annual spending per visit rose 23.00%. Compared with 2024,
+2025 expenditure rose 6.32% but official spending per visit fell 7.28%. These findings
+are compatible because the comparison years differ. For 2025 Q3, overnight visitors
+accounted for 41.68% of arrivals and 82.22% of non-gaming expenditure, with official
+spending per visit of MOP 3,846 versus MOP 595 for same-day visitors. This describes
+composition and spending intensity; it does not quantify a causal composition effect.
+
+COURSE ALIGNMENT
+The course evidence was previously read from 25 lecture/tutorial files (1,451 pages
+of extractable text) and the saved Moodle teaching pages. This is not a claim to
+have watched every external video or read every linked textbook. Both notebooks
+retain section-level course references and links.
+
+- Pandas input checks, missing values, derived columns, groupby, pivot and merge:
+  Module 02; Tutorial 04-01, pp. 30-42.
+- Mean, median, IQR, quantiles and weighted/aggregate comparisons:
+  Lecture 04, pp. 19-56; proportions in Tutorial 05-02, pp. 3-10.
+- ECDF and distribution comparison: Tutorial 07, pp. 7-18.
+- OLS, residuals, R-squared, extrapolation and confounding:
+  Tutorial 05-02, pp. 25-49; Module 04.
+- Pipelines, training/test separation, cross-validation, Ridge and GridSearchCV:
+  Modules 04-05. The chronological folds adapt taught validation principles to
+  ordered observations; they do not introduce a separate time-series algorithm.
+- Dummy coding and scaling: Tutorial 10-03, pp. 94-99, and Tutorial 10-01,
+  pp. 21-30. Only the continuous trend is scaled; one dummy level is omitted.
+- MSE and R-squared: Modules 04-05; RMSE: Tutorial 10-02, pp. 7-9.
+  MAE is an auxiliary mean of absolute residuals, not a claim that Module 05
+  explicitly teaches MAE and not the criterion used to select the model.
+- Matplotlib: Lecture 06; heatmap design: Lecture 05, pp. 37-40;
+  imshow and colorbar: Lecture 06, pp. 91 and 95.
+- Conditional comparisons and limits on causal interpretation:
+  Tutorial 10-01, pp. 17-20 and 37-40.
+
+No Shapley decomposition, price deflation, advanced time-series model, tree ensemble,
+deep learning or causal policy evaluation has been added. The saved assignment
+instructions do not require every taught algorithm or a Dash application. Bootstrap
+and hypothesis tests are taught, but applying ordinary iid versions to dependent
+daily aggregates without justified assumptions would not improve this study.
+
+CORRECTNESS CHECKS
+1. Verified all 3,287 consecutive daily dates, 55,879 source rows and daily equality
+   of the 17 source-group sums to total arrivals. The nine visitor-type flag dates
+   remain visible: one derived missing same-day value and eight one-visit differences.
+   Genuine high values were retained. Annual sensitivity results remain available.
+2. Recalculated MSE, RMSE, MAE, R-squared and signed mean errors directly from all
+   1,460 saved model/date predictions, independently of the metric functions.
+3. Independently fitted all four models using NumPy design matrices, centred least
+   squares and ridge normal equations. All 16 model/fold scores, all 24 alpha/fold
+   scores and all 1,460 holdout predictions matched within numerical tolerance.
+   The largest holdout prediction difference was less than 0.000001 visits.
+4. Recomputed all 144 quarterly recovery values and 30 annual change rates from
+   the fixed input files. Confirmed the training-derived P90 and its test groups.
+5. Checked the 48 official-versus-derived quarterly spending-per-visit comparisons.
+   Annual official estimates, quarterly sums and derived ratios remain separately
+   labelled. Small published rounding differences are retained, not overwritten.
+6. Executed all 16 code cells across the two English notebooks; verified their code
+   matches the scripts, local links resolve and outputs contain no execution errors.
+   The six input CSVs and 24 result CSVs preserve the reviewed data and calculations.
+7. Checked the English Word/PDF layout and the archive contents. The archive excludes
+   working translations, execution logs, caches and earlier versions. Both scripts
+   run from an extracted copy using only the included inputs and listed dependencies.
+
+DEPTH AND LIMITS
+The daily series is substantial for this course: nine years of complete daily data
+support multiple comparisons and a separate validation/test period. The 55,879 source
+rows add composition detail, not 55,879 independent visitors. The 16 expenditure
+quarters are a small, complementary aggregate dataset, so they support descriptive
+comparisons rather than a complex spending model.
+
+The substantive depth comes from:
+- tracing data quality and checking sensitivity rather than silently cleaning flags;
+- comparing totals, typical days, spread and upper quantiles together;
+- separating source contributions, visitor-type shares and spending per visit;
+- comparing a simple baseline, OLS, trend and regularisation under fixed time splits;
+- examining validation/test disagreement and errors on high-arrival dates;
+- reconciling daily, quarterly and annual units and using explicit comparison bases.
+
+The evidence supports uneven recovery and limited calendar-based predictability.
+It does not explain why individuals visit or spend, identify policy effects, establish
+statistical significance or demonstrate operational forecasting readiness. The 2025
+outcomes were excluded from fitting and selection but had been viewed in EDA, so the
+whole study is not fully blind. Adjacent days may be dependent; residual autocorrelation
+was not formally tested. Calendar inputs omit moving holidays, weather, events and
+other drivers. Spending is nominal MOP, excludes gaming and comes from published quota-
+survey estimates without individual records, survey weights or sampling variances.
+No adjustment for inflation or formal decomposition of visitor composition is made.
+
+No numerical correction or new analytical method was needed in this English revision.
+Translation preserves these boundaries, including the distinction between the model
+selected by validation and the model with the lowest observed holdout error. Team
+members still need to understand and explain the work and complete the deferred
+submission materials before treating the package as ready to submit.

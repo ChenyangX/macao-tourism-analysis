@@ -1,0 +1,10 @@
+﻿date,total,overnight,same_day_raw,same_day_analysis,same_day_status,raw_additivity_residual,type_anomaly_flag,flag_reason
+2018-09-16,921,921,,0,derived_total_minus_overnight,,True,missing_same_day_raw_derived_by_difference
+2019-09-25,87965,44842,43122.0,43122,api_observed,1.0,True,raw_additivity_discrepancy_1_person
+2019-09-26,84747,41300,43448.0,43448,api_observed,-1.0,True,raw_additivity_discrepancy_1_person
+2021-01-17,16191,8168,8022.0,8022,api_observed,1.0,True,raw_additivity_discrepancy_1_person
+2021-01-19,17848,7435,10414.0,10414,api_observed,-1.0,True,raw_additivity_discrepancy_1_person
+2021-03-12,30865,18474,12392.0,12392,api_observed,-1.0,True,raw_additivity_discrepancy_1_person
+2021-03-13,29822,17699,12122.0,12122,api_observed,1.0,True,raw_additivity_discrepancy_1_person
+2022-10-02,27726,20992,6733.0,6733,api_observed,1.0,True,raw_additivity_discrepancy_1_person
+2022-10-04,24910,18414,6497.0,6497,api_observed,-1.0,True,raw_additivity_discrepancy_1_person

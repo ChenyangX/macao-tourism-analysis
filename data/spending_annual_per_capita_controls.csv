@@ -1,0 +1,13 @@
+﻿year,visitor_type,published_annual_per_capita_mop,source_url,source_file,location,units,period_basis,price_basis
+2019,total,1626.0734524407242,https://www.dsec.gov.mo/getAttachment/8e1bd8b2-f1fc-4f43-9b94-2d6e7dae456e/E_IDV_FR_2019_Q4.aspx,2019Q4.xlsx,sheet 10!C5,MOP,annual_control_only,nominal_current_prices
+2019,overnight,2681.081871560293,https://www.dsec.gov.mo/getAttachment/8e1bd8b2-f1fc-4f43-9b94-2d6e7dae456e/E_IDV_FR_2019_Q4.aspx,2019Q4.xlsx,sheet 10!E5,MOP,annual_control_only,nominal_current_prices
+2019,same_day,679.787494417807,https://www.dsec.gov.mo/getAttachment/8e1bd8b2-f1fc-4f43-9b94-2d6e7dae456e/E_IDV_FR_2019_Q4.aspx,2019Q4.xlsx,sheet 10!G5,MOP,annual_control_only,nominal_current_prices
+2023,total,2525,https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx,2023Q4.xlsx,sheet 13!B7,MOP,annual_control_only,nominal_current_prices
+2023,overnight,4230,https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx,2023Q4.xlsx,sheet 13!E7,MOP,annual_control_only,nominal_current_prices
+2023,same_day,791,https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx,2023Q4.xlsx,sheet 13!H7,MOP,annual_control_only,nominal_current_prices
+2024,total,2157,https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx,2024Q4.xlsx,sheet 12!B7,MOP,annual_control_only,nominal_current_prices
+2024,overnight,3884,https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx,2024Q4.xlsx,sheet 12!E7,MOP,annual_control_only,nominal_current_prices
+2024,same_day,691,https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx,2024Q4.xlsx,sheet 12!H7,MOP,annual_control_only,nominal_current_prices
+2025,total,2000,https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx,2025Q4.xlsx,sheet 11!C7,MOP,annual_control_only,nominal_current_prices
+2025,overnight,3827,https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx,2025Q4.xlsx,sheet 11!F7,MOP,annual_control_only,nominal_current_prices
+2025,same_day,715,https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx,2025Q4.xlsx,sheet 11!I7,MOP,annual_control_only,nominal_current_prices

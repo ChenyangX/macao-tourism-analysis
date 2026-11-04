@@ -1,0 +1,29 @@
+Quarterly visitor-spending experiment — executed results
+16 individual quarters: Q1–Q4 in 2019, 2023, 2024 and 2025. All selected daily quarters are complete.
+All spending is nominal MOP, excluding gaming. Recovery indices use the corresponding 2019 quarter = 100.
+
+2025 matched-quarter recovery (arrivals / nominal spending / official spending per visit):
+2025Q1: 95.2 / 115.9 / 121.7; overnight arrival share 41.0%, spending share 78.4%; overnight/same-day official per-visit spending ratio 5.22.
+2025Q2: 94.3 / 116.1 / 123.2; overnight arrival share 42.7%, spending share 80.2%; overnight/same-day official per-visit spending ratio 5.44.
+2025Q3: 105.4 / 134.1 / 127.3; overnight arrival share 41.7%, spending share 82.2%; overnight/same-day official per-visit spending ratio 6.46.
+2025Q4: 113.0 / 134.7 / 119.2; overnight arrival share 39.9%, spending share 75.6%; overnight/same-day official per-visit spending ratio 4.66.
+
+Annual total-visitor comparisons (nominal; official annual per-capita values):
+2025 vs 2019: arrivals +1.6829%; quarter-summed spending +25.0382%; published annual spending +25.0402%; official annual spending per visit +22.9957%.
+2025 vs 2024: arrivals +14.7177%; quarter-summed spending +6.3232%; published annual spending +6.3218%; official annual spending per visit -7.2786%.
+2019 annual spending: quarter sum 64,078 vs published annual control 64,077 million MOP; 2024: 75,357 vs 75,358; 2025: 80,122 vs 80,122. Annual comparisons retain both bases.
+Annual per-capita estimates are taken from annual source tables, never obtained by averaging quarterly per-capita values.
+
+Official-versus-derived per-visit audit:
+total: largest absolute discrepancy 0.0211% (2019Q3); maximum absolute MOP discrepancy across quarters 0.4631.
+overnight: largest absolute discrepancy 0.0148% (2019Q2); maximum absolute MOP discrepancy across quarters 0.5808.
+same_day: largest absolute discrepancy 0.0797% (2025Q3); maximum absolute MOP discrepancy across quarters 0.5052.
+
+Interpretation and limits:
+Compare each 2025 quarter with its matching 2019 quarter: a return of arrival counts need not imply an identical spending index. These are separate descriptive measurements, not a factor decomposition.
+Overnight visitors account for a much larger fraction of non-gaming spending than of arrivals. Official spending per overnight visit exceeds same-day spending in every observed quarter.
+The spending survey uses quota sampling and extrapolation; arrival counts are administrative. They are separate data sources, not statistically independent variables or visitor-level linked records.
+Published total and type spending have rounding differences of up to 1 million MOP. Existing daily type anomalies are retained and counted. No arithmetic residual is assigned to a visitor type.
+Derived spending per visit is total reported spending divided by summed daily arrivals; the exported differences document rounding/revision/source compatibility, without assuming exact equality.
+No claim is made about real purchasing power, individual spending distributions, tourism GDP, gaming revenue, profit or policy effects. No TPI, Shapley, confidence intervals or respondent-level inference is used.
+Source definitions and the historical wording change for overnight visitors are documented in data/README.txt. Original per-capita precision is preserved; round to whole MOP in presentations.

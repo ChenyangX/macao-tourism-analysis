@@ -1,0 +1,45 @@
+Fixed experimental design
+Originally recorded on 28 October 2026 before model execution.
+English translation: 1 November 2026. The design is unchanged.
+
+DATA
+Daily Macao arrivals from 2017-01-01 to 2025-12-31. Source and visitor-type counts
+are used descriptively. Inputs are in data/. Preserve flagged records and genuine
+high values; never silently replace missing observations with zero.
+
+DESCRIPTION
+Use fixed stages: 2017-2019, 2020-2022 and 2023-2025. Compute n, mean, median, IQR
+and P90. Compare 2019 and 2025 using ECDFs and month/weekday strata. Report annual
+source shares, absolute source changes and visitor-type composition. Distinguish
+original from derived values and retain data-quality flags.
+
+MODELLING
+Use 2023-2025 only. Target: raw daily visitor_arrivals. Inputs: month, weekday and
+continuous date trend. Exclude same-day source and visitor-type counts.
+Start with all 365 days of 2023. Validate on each quarter of 2024, training on all
+preceding 2023-2024 dates. Select by unweighted mean MSE across these four expanding
+validation folds. Score the 365 days of 2025 only after model selection.
+
+CANDIDATES
+Training-period weekday mean; OLS with month and weekday; OLS adding date trend;
+Ridge with the same trend features and alpha in [0.01, 0.1, 1, 10, 100, 1000].
+Fit OneHotEncoder(drop='first') and StandardScaler inside each training fold only.
+Scale the trend alone; leave dummies at 0/1. GridSearchCV uses explicit chronological
+folds, not random splits. Select alpha and the model using 2024 validation. Refit each
+final candidate on all 731 days of 2023-2024 before holdout scoring.
+
+OUTPUTS
+Validation MSE; holdout MSE, RMSE and R-squared; daily predictions and residuals;
+residual figures and errors by month, weekday and the training-period P90 threshold.
+Derive the high-arrival threshold from 2023-2024, never the test distribution. Report
+all candidates without changing the model or alpha in response to test results.
+MAE is an auxiliary summary of absolute residuals, not a selection criterion.
+
+INTERPRETATION
+Historical holdout evaluation does not establish real-time readiness or future
+forecast accuracy. Publication latency is unknown. Adjacent days may be dependent,
+and changing periods and moving holidays limit generalisation. No iid t tests, ANOVA
+p-values, random daily permutations, iid bootstrap, default regression confidence
+bands or causal interpretations are used. Residual autocorrelation was not formally
+tested. The 2025 data had already been viewed in EDA; excluding them from fitting and
+selection does not make the whole study blind.

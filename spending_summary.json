@@ -1,0 +1,594 @@
+{
+  "executed_at_utc": "2026-11-01T14:16:35.371466+00:00",
+  "python": "3.12.14",
+  "coverage": {
+    "years": [
+      2019,
+      2023,
+      2024,
+      2025
+    ],
+    "quarter_rows": 16,
+    "daily_rows_in_selected_years": 1461,
+    "all_selected_quarters_complete": true,
+    "same_day_raw_missing_days": 0,
+    "raw_type_additivity_flag_days": 2,
+    "quarterly_arrival_type_residuals": [
+      {
+        "period": "2019Q1",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2019Q2",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2019Q3",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2019Q4",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2023Q1",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2023Q2",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2023Q3",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2023Q4",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2024Q1",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2024Q2",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2024Q3",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2024Q4",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2025Q1",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2025Q2",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2025Q3",
+        "analysis_type_sum_minus_total_arrivals": 0
+      },
+      {
+        "period": "2025Q4",
+        "analysis_type_sum_minus_total_arrivals": 0
+      }
+    ]
+  },
+  "measurement": {
+    "spending_currency": "MOP",
+    "spending_price_basis": "nominal_current_prices",
+    "spending_excludes": "gaming",
+    "spending_source": "DSEC quota-sample Visitor Expenditure Survey",
+    "arrivals_source": "DSEC daily administrative visitor arrivals",
+    "observation_unit": "city-quarter",
+    "recovery_index_baseline": "same calendar quarter in 2019 = 100",
+    "inference": "descriptive only; no causal attribution, confidence intervals, price deflation or decomposition"
+  },
+  "recovery_2025": [
+    {
+      "period": "2025Q1",
+      "total_arrivals_index_2019q100": 95.2016929352983,
+      "total_nominal_spending_index_2019q100": 115.89673913043478,
+      "total_official_per_capita_spending_index_2019q100": 121.72582619339045,
+      "overnight_arrivals_index_2019q100": 85.30641648007847,
+      "overnight_nominal_spending_index_2019q100": 118.99086828664294,
+      "overnight_official_per_capita_spending_index_2019q100": 139.5016489556614,
+      "same_day_arrivals_index_2019q100": 103.53175937982468,
+      "same_day_nominal_spending_index_2019q100": 105.94257178526841,
+      "same_day_official_per_capita_spending_index_2019q100": 102.38764044943821
+    },
+    {
+      "period": "2025Q2",
+      "total_arrivals_index_2019q100": 94.2669303139838,
+      "total_nominal_spending_index_2019q100": 116.14997771977848,
+      "total_official_per_capita_spending_index_2019q100": 123.1838281743525,
+      "overnight_arrivals_index_2019q100": 84.11941481026042,
+      "overnight_nominal_spending_index_2019q100": 119.20351820180797,
+      "overnight_official_per_capita_spending_index_2019q100": 141.70212765957447,
+      "same_day_arrivals_index_2019q100": 103.58431286448551,
+      "same_day_nominal_spending_index_2019q100": 105.21865889212827,
+      "same_day_official_per_capita_spending_index_2019q100": 101.50829562594268
+    },
+    {
+      "period": "2025Q3",
+      "total_arrivals_index_2019q100": 105.38659300868206,
+      "total_nominal_spending_index_2019q100": 134.10975128306356,
+      "total_official_per_capita_spending_index_2019q100": 127.2845953002611,
+      "overnight_arrivals_index_2019q100": 90.99835752763632,
+      "overnight_nominal_spending_index_2019q100": 137.51846381093057,
+      "overnight_official_per_capita_spending_index_2019q100": 151.11984282907662,
+      "same_day_arrivals_index_2019q100": 118.81437767926634,
+      "same_day_nominal_spending_index_2019q100": 120.3187250996016,
+      "same_day_official_per_capita_spending_index_2019q100": 101.36286201022146
+    },
+    {
+      "period": "2025Q4",
+      "total_arrivals_index_2019q100": 112.98467121758287,
+      "total_nominal_spending_index_2019q100": 134.67339777134765,
+      "total_official_per_capita_spending_index_2019q100": 119.21030013366408,
+      "overnight_arrivals_index_2019q100": 95.24905895156836,
+      "overnight_nominal_spending_index_2019q100": 131.58020369191598,
+      "overnight_official_per_capita_spending_index_2019q100": 138.1373667677688,
+      "same_day_arrivals_index_2019q100": 128.9433968573833,
+      "same_day_nominal_spending_index_2019q100": 145.2517006802721,
+      "same_day_official_per_capita_spending_index_2019q100": 112.7097544711536
+    }
+  ],
+  "type_comparison_2025": [
+    {
+      "year": 2025,
+      "quarter": 1,
+      "period": "2025Q1",
+      "total_arrivals": 9862665,
+      "overnight_arrivals": 4039281,
+      "same_day_arrivals": 5823384,
+      "total_spending_million_mop": 19619.0,
+      "overnight_spending_million_mop": 15376.0,
+      "same_day_spending_million_mop": 4243.0,
+      "total_per_capita_spending_mop": 1989.0,
+      "overnight_per_capita_spending_mop": 3807.0,
+      "same_day_per_capita_spending_mop": 729.0,
+      "overnight_arrivals_share_pct": 40.9552691894128,
+      "overnight_spending_share_pct": 78.37300575972272,
+      "same_day_arrivals_share_pct": 59.0447308105872,
+      "same_day_spending_share_pct": 21.62699424027728,
+      "overnight_to_same_day_official_per_capita_ratio": 5.222222222222222,
+      "overnight_arrivals_share_change_pp_vs_2019q": -4.750682629152841,
+      "overnight_spending_share_change_pp_vs_2019q": 2.0379395971518335
+    },
+    {
+      "year": 2025,
+      "quarter": 2,
+      "period": "2025Q2",
+      "total_arrivals": 9355875,
+      "overnight_arrivals": 3996346,
+      "same_day_arrivals": 5359529,
+      "total_spending_million_mop": 18246.0,
+      "overnight_spending_million_mop": 14637.0,
+      "same_day_spending_million_mop": 3609.0,
+      "total_per_capita_spending_mop": 1950.0,
+      "overnight_per_capita_spending_mop": 3663.0,
+      "same_day_per_capita_spending_mop": 673.0,
+      "overnight_arrivals_share_pct": 42.71482891765869,
+      "overnight_spending_share_pct": 80.22032226241367,
+      "same_day_arrivals_share_pct": 57.28517108234131,
+      "same_day_spending_share_pct": 19.77967773758632,
+      "overnight_to_same_day_official_per_capita_ratio": 5.442793462109956,
+      "overnight_arrivals_share_change_pp_vs_2019q": -5.152786543493214,
+      "overnight_spending_share_change_pp_vs_2019q": 2.0549393608922486
+    },
+    {
+      "year": 2025,
+      "quarter": 3,
+      "period": "2025Q3",
+      "total_arrivals": 10452530,
+      "overnight_arrivals": 4356914,
+      "same_day_arrivals": 6095616,
+      "total_spending_million_mop": 20382.0,
+      "overnight_spending_million_mop": 16758.0,
+      "same_day_spending_million_mop": 3624.0,
+      "total_per_capita_spending_mop": 1950.0,
+      "overnight_per_capita_spending_mop": 3846.0,
+      "same_day_per_capita_spending_mop": 595.0,
+      "overnight_arrivals_share_pct": 41.6828652967272,
+      "overnight_spending_share_pct": 82.21960553429497,
+      "same_day_arrivals_share_pct": 58.3171347032728,
+      "same_day_spending_share_pct": 17.780394465705033,
+      "overnight_to_same_day_official_per_capita_ratio": 6.4638655462184875,
+      "overnight_arrivals_share_change_pp_vs_2019q": -6.59070007095324,
+      "overnight_spending_share_change_pp_vs_2019q": 2.0380026918156915
+    },
+    {
+      "year": 2025,
+      "quarter": 4,
+      "period": "2025Q4",
+      "total_arrivals": 10398290,
+      "overnight_arrivals": 4151876,
+      "same_day_arrivals": 6246414,
+      "total_spending_million_mop": 21875.0,
+      "overnight_spending_million_mop": 16537.0,
+      "same_day_spending_million_mop": 5338.0,
+      "total_per_capita_spending_mop": 2104.0,
+      "overnight_per_capita_spending_mop": 3983.0,
+      "same_day_per_capita_spending_mop": 855.0,
+      "overnight_arrivals_share_pct": 39.92844977395322,
+      "overnight_spending_share_pct": 75.59771428571429,
+      "same_day_arrivals_share_pct": 60.07155022604678,
+      "same_day_spending_share_pct": 24.402285714285714,
+      "overnight_to_same_day_official_per_capita_ratio": 4.658479532163743,
+      "overnight_arrivals_share_change_pp_vs_2019q": -7.434776903506709,
+      "overnight_spending_share_change_pp_vs_2019q": -1.7771548886993003
+    }
+  ],
+  "annual_crosscheck": [
+    {
+      "year": 2019,
+      "visitor_type": "total",
+      "daily_summed_annual_arrivals": 39406181,
+      "quarter_summed_spending_million_mop": 64078.0,
+      "published_annual_spending_million_mop": 64077.0,
+      "quarter_sum_minus_published_annual_million_mop": 1.0,
+      "published_annual_per_capita_mop": 1626.0734524407242,
+      "derived_annual_per_capita_from_quarter_sum_mop": 1626.0900796248181,
+      "derived_annual_per_capita_from_annual_control_mop": 1626.0647028952133,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/3df5a606-439d-4c9e-9c04-9d7a02425c31/E_TUR_FR_2019_Q4.aspx",
+      "annual_total_source_location": "PDF p1 Q1-Q4 total and p4 Q1-Q4 by visitor type",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/8e1bd8b2-f1fc-4f43-9b94-2d6e7dae456e/E_IDV_FR_2019_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 10!C5"
+    },
+    {
+      "year": 2019,
+      "visitor_type": "overnight",
+      "daily_summed_annual_arrivals": 18632699,
+      "quarter_summed_spending_million_mop": 49955.0,
+      "published_annual_spending_million_mop": 49956.0,
+      "quarter_sum_minus_published_annual_million_mop": -1.0,
+      "published_annual_per_capita_mop": 2681.081871560293,
+      "derived_annual_per_capita_from_quarter_sum_mop": 2681.039392092364,
+      "derived_annual_per_capita_from_annual_control_mop": 2681.093061182387,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/3df5a606-439d-4c9e-9c04-9d7a02425c31/E_TUR_FR_2019_Q4.aspx",
+      "annual_total_source_location": "PDF p1 Q1-Q4 total and p4 Q1-Q4 by visitor type",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/8e1bd8b2-f1fc-4f43-9b94-2d6e7dae456e/E_IDV_FR_2019_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 10!E5"
+    },
+    {
+      "year": 2019,
+      "visitor_type": "same_day",
+      "daily_summed_annual_arrivals": 20773482,
+      "quarter_summed_spending_million_mop": 14122.0,
+      "published_annual_spending_million_mop": 14122.0,
+      "quarter_sum_minus_published_annual_million_mop": 0.0,
+      "published_annual_per_capita_mop": 679.787494417807,
+      "derived_annual_per_capita_from_quarter_sum_mop": 679.8089987995272,
+      "derived_annual_per_capita_from_annual_control_mop": 679.8089987995272,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/3df5a606-439d-4c9e-9c04-9d7a02425c31/E_TUR_FR_2019_Q4.aspx",
+      "annual_total_source_location": "PDF p1 Q1-Q4 total and p4 Q1-Q4 by visitor type",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/8e1bd8b2-f1fc-4f43-9b94-2d6e7dae456e/E_IDV_FR_2019_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 10!G5"
+    },
+    {
+      "year": 2023,
+      "visitor_type": "total",
+      "daily_summed_annual_arrivals": 28213003,
+      "quarter_summed_spending_million_mop": 71245.0,
+      "published_annual_spending_million_mop": 71245.0,
+      "quarter_sum_minus_published_annual_million_mop": 0.0,
+      "published_annual_per_capita_mop": 2525.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 2525.2540468662623,
+      "derived_annual_per_capita_from_annual_control_mop": 2525.2540468662623,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx",
+      "annual_total_source_location": "sheet 12: B7,E7,H7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 13!B7"
+    },
+    {
+      "year": 2023,
+      "visitor_type": "overnight",
+      "daily_summed_annual_arrivals": 14227229,
+      "quarter_summed_spending_million_mop": 60175.0,
+      "published_annual_spending_million_mop": 60176.0,
+      "quarter_sum_minus_published_annual_million_mop": -1.0,
+      "published_annual_per_capita_mop": 4230.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 4229.565715150856,
+      "derived_annual_per_capita_from_annual_control_mop": 4229.63600290682,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx",
+      "annual_total_source_location": "sheet 12: B7,E7,H7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 13!E7"
+    },
+    {
+      "year": 2023,
+      "visitor_type": "same_day",
+      "daily_summed_annual_arrivals": 13985774,
+      "quarter_summed_spending_million_mop": 11070.0,
+      "published_annual_spending_million_mop": 11069.0,
+      "quarter_sum_minus_published_annual_million_mop": 1.0,
+      "published_annual_per_capita_mop": 791.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 791.5185816673428,
+      "derived_annual_per_capita_from_annual_control_mop": 791.4470804404533,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx",
+      "annual_total_source_location": "sheet 12: B7,E7,H7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/ec6e6ec9-64b1-415e-aaea-a7c15f2bb7fa/E_IDV_FR_2023_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 13!H7"
+    },
+    {
+      "year": 2024,
+      "visitor_type": "total",
+      "daily_summed_annual_arrivals": 34928650,
+      "quarter_summed_spending_million_mop": 75357.0,
+      "published_annual_spending_million_mop": 75358.0,
+      "quarter_sum_minus_published_annual_million_mop": -1.0,
+      "published_annual_per_capita_mop": 2157.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 2157.4552695280236,
+      "derived_annual_per_capita_from_annual_control_mop": 2157.4838993204717,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx",
+      "annual_total_source_location": "sheet 11: B7,E7,H7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 12!B7"
+    },
+    {
+      "year": 2024,
+      "visitor_type": "overnight",
+      "daily_summed_annual_arrivals": 16043768,
+      "quarter_summed_spending_million_mop": 62311.0,
+      "published_annual_spending_million_mop": 62310.0,
+      "quarter_sum_minus_published_annual_million_mop": 1.0,
+      "published_annual_per_capita_mop": 3884.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 3883.813328639507,
+      "derived_annual_per_capita_from_annual_control_mop": 3883.7509991418474,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx",
+      "annual_total_source_location": "sheet 11: B7,E7,H7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 12!E7"
+    },
+    {
+      "year": 2024,
+      "visitor_type": "same_day",
+      "daily_summed_annual_arrivals": 18884882,
+      "quarter_summed_spending_million_mop": 13047.0,
+      "published_annual_spending_million_mop": 13047.0,
+      "quarter_sum_minus_published_annual_million_mop": 0.0,
+      "published_annual_per_capita_mop": 691.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 690.8700832761359,
+      "derived_annual_per_capita_from_annual_control_mop": 690.8700832761359,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx",
+      "annual_total_source_location": "sheet 11: B7,E7,H7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/dda5c7dc-6c0c-49c3-8902-9dc1ab4533fd/E_IDV_FR_2024_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 12!H7"
+    },
+    {
+      "year": 2025,
+      "visitor_type": "total",
+      "daily_summed_annual_arrivals": 40069360,
+      "quarter_summed_spending_million_mop": 80122.0,
+      "published_annual_spending_million_mop": 80122.0,
+      "quarter_sum_minus_published_annual_million_mop": 0.0,
+      "published_annual_per_capita_mop": 2000.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 1999.5827235573515,
+      "derived_annual_per_capita_from_annual_control_mop": 1999.5827235573515,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx",
+      "annual_total_source_location": "sheet 10: C7,F7,I7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 11!C7"
+    },
+    {
+      "year": 2025,
+      "visitor_type": "overnight",
+      "daily_summed_annual_arrivals": 16544417,
+      "quarter_summed_spending_million_mop": 63308.0,
+      "published_annual_spending_million_mop": 63308.0,
+      "quarter_sum_minus_published_annual_million_mop": 0.0,
+      "published_annual_per_capita_mop": 3827.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 3826.5476504853573,
+      "derived_annual_per_capita_from_annual_control_mop": 3826.5476504853573,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx",
+      "annual_total_source_location": "sheet 10: C7,F7,I7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 11!F7"
+    },
+    {
+      "year": 2025,
+      "visitor_type": "same_day",
+      "daily_summed_annual_arrivals": 23524943,
+      "quarter_summed_spending_million_mop": 16814.0,
+      "published_annual_spending_million_mop": 16814.0,
+      "quarter_sum_minus_published_annual_million_mop": 0.0,
+      "published_annual_per_capita_mop": 715.0,
+      "derived_annual_per_capita_from_quarter_sum_mop": 714.7307434496228,
+      "derived_annual_per_capita_from_annual_control_mop": 714.7307434496228,
+      "annual_total_source_url": "https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx",
+      "annual_total_source_location": "sheet 10: C7,F7,I7",
+      "annual_per_capita_source_url": "https://www.dsec.gov.mo/getAttachment/4fb81e6a-e203-4b53-a292-10232d9cf2c2/CPE_IDV_FR_2025_Q4.aspx",
+      "annual_per_capita_source_location": "sheet 11!I7"
+    }
+  ],
+  "annual_comparisons_2025_vs_2019_and_2024": [
+    {
+      "base_year": 2019,
+      "target_year": 2025,
+      "visitor_type": "total",
+      "daily_summed_annual_arrivals_change_pct": 1.6829314162668974,
+      "quarter_summed_spending_million_mop_change_pct": 25.038234651518465,
+      "published_annual_spending_million_mop_change_pct": 25.04018602618725,
+      "published_annual_per_capita_mop_change_pct": 22.995673842286447,
+      "derived_annual_per_capita_from_quarter_sum_mop_change_pct": 22.968754844055628
+    },
+    {
+      "base_year": 2019,
+      "target_year": 2025,
+      "visitor_type": "overnight",
+      "daily_summed_annual_arrivals_change_pct": -11.20761946511345,
+      "quarter_summed_spending_million_mop_change_pct": 26.73005705134621,
+      "published_annual_spending_million_mop_change_pct": 26.727520217791657,
+      "published_annual_per_capita_mop_change_pct": 42.74088533420368,
+      "derived_annual_per_capita_from_quarter_sum_mop_change_pct": 42.72627480862952
+    },
+    {
+      "base_year": 2019,
+      "target_year": 2025,
+      "visitor_type": "same_day",
+      "daily_summed_annual_arrivals_change_pct": 13.24506406773789,
+      "quarter_summed_spending_million_mop_change_pct": 19.062455742812624,
+      "published_annual_spending_million_mop_change_pct": 19.062455742812624,
+      "published_annual_per_capita_mop_change_pct": 5.179928414592294,
+      "derived_annual_per_capita_from_quarter_sum_mop_change_pct": 5.1369935837512815
+    },
+    {
+      "base_year": 2024,
+      "target_year": 2025,
+      "visitor_type": "total",
+      "daily_summed_annual_arrivals_change_pct": 14.71774603370013,
+      "quarter_summed_spending_million_mop_change_pct": 6.323234735990013,
+      "published_annual_spending_million_mop_change_pct": 6.3218238275962735,
+      "published_annual_per_capita_mop_change_pct": -7.278627723690311,
+      "derived_annual_per_capita_from_quarter_sum_mop_change_pct": -7.317535070157399
+    },
+    {
+      "base_year": 2024,
+      "target_year": 2025,
+      "visitor_type": "overnight",
+      "daily_summed_annual_arrivals_change_pct": 3.1205200673557476,
+      "quarter_summed_spending_million_mop_change_pct": 1.6000385164738118,
+      "published_annual_spending_million_mop_change_pct": 1.6016690739849127,
+      "published_annual_per_capita_mop_change_pct": -1.4675592173017504,
+      "derived_annual_per_capita_from_quarter_sum_mop_change_pct": -1.4744704059762248
+    },
+    {
+      "base_year": 2024,
+      "target_year": 2025,
+      "visitor_type": "same_day",
+      "daily_summed_annual_arrivals_change_pct": 24.57024089427724,
+      "quarter_summed_spending_million_mop_change_pct": 28.872537748141337,
+      "published_annual_spending_million_mop_change_pct": 28.872537748141337,
+      "published_annual_per_capita_mop_change_pct": 3.47322720694645,
+      "derived_annual_per_capita_from_quarter_sum_mop_change_pct": 3.4537115951436936
+    }
+  ],
+  "per_capita_consistency": [
+    {
+      "visitor_type": "total",
+      "max_absolute_difference_mop": 0.46314934038855426,
+      "max_absolute_difference_pct": 0.021097778293066582,
+      "period_of_max_absolute_pct_difference": "2019Q3",
+      "signed_difference_mop_at_max_pct": 0.32321796344990616
+    },
+    {
+      "visitor_type": "overnight",
+      "max_absolute_difference_mop": 0.58080672529195,
+      "max_absolute_difference_pct": 0.014824620125331034,
+      "period_of_max_absolute_pct_difference": "2019Q2",
+      "signed_difference_mop_at_max_pct": -0.3832164302398269
+    },
+    {
+      "visitor_type": "same_day",
+      "max_absolute_difference_mop": 0.5051818155950514,
+      "max_absolute_difference_pct": 0.07972446884763063,
+      "period_of_max_absolute_pct_difference": "2025Q3",
+      "signed_difference_mop_at_max_pct": -0.47436058964342465
+    }
+  ],
+  "quarterly_spending_type_residuals_million_mop": [
+    {
+      "period": "2019Q1",
+      "component_sum_minus_reported_total_million_mop": -1.0
+    },
+    {
+      "period": "2019Q2",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2019Q3",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2019Q4",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2023Q1",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2023Q2",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2023Q3",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2023Q4",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2024Q1",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2024Q2",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2024Q3",
+      "component_sum_minus_reported_total_million_mop": 1.0
+    },
+    {
+      "period": "2024Q4",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2025Q1",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2025Q2",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2025Q3",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    },
+    {
+      "period": "2025Q4",
+      "component_sum_minus_reported_total_million_mop": 0.0
+    }
+  ],
+  "inputs": [
+    {
+      "file": "data/macao_quarterly_spending_2019_2023_2025.csv",
+      "sha256": "9c93f5b4e9594a51e3940575a9aa7aa64d9f00a702ac05a97ee51ac1200e551b"
+    },
+    {
+      "file": "data/macao_daily_total_overnight_sameday_2017_2025.csv",
+      "sha256": "02d60d0772528c40f4af0a6b45fb549f1c2ce942ba89cb672f039fed04591a9a"
+    },
+    {
+      "file": "data/spending_annual_controls.csv",
+      "sha256": "a137105ad41300d0133a34c605abb96b14102ef5cb35a88ba8192cbb8097638e"
+    },
+    {
+      "file": "data/spending_annual_per_capita_controls.csv",
+      "sha256": "e6bc508a805b88b70625a882d8d2e8d9a49533d0b020186af1ef35662963901c"
+    }
+  ],
+  "csv_outputs": [
+    "results/spending_annual_comparisons.csv",
+    "results/spending_annual_crosscheck.csv",
+    "results/spending_per_capita_consistency.csv",
+    "results/spending_quarterly_arrivals.csv",
+    "results/spending_quarterly_joined.csv",
+    "results/spending_quarterly_recovery_indices.csv",
+    "results/spending_visitor_type_comparison.csv"
+  ],
+  "figures": [
+    "figures/11_quarterly_spending_recovery.png",
+    "figures/12_spending_per_visit_by_type.png",
+    "figures/13_overnight_arrival_spending_shares.png"
+  ]
+}

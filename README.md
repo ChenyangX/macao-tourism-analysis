@@ -22,4 +22,4 @@ Install requirements with `pip install -r requirements.txt` and open the noteboo
 
 Historical observational data cannot establish causality; definitions and coverage may vary by source and year. Please consult the analysis and supporting documents when interpreting results.
 
-[Portfolio homepage](https://chenyangx.github.io/data-science-portfolio/)
+[Portfolio homepage](https://chenyangx.github.io/)
